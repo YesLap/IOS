@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1600EFCBDF01529491910C3A /* Pods_yeslap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 781245311ABE6DC30C90E9D9 /* Pods_yeslap.framework */; };
+		6978A4823AF3057CF804BCEC /* Pods_yeslapUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50C122BB1E701725F37ABE2C /* Pods_yeslapUITests.framework */; };
+		825F6B1D1D1EBBB3A3D4B359 /* Pods_yeslapTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1ADB870B935F5A51EA31A3B4 /* Pods_yeslapTests.framework */; };
 		F4A0B8681F87E4B9008E4743 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A0B8671F87E4B9008E4743 /* AppDelegate.swift */; };
 		F4A0B86A1F87E4B9008E4743 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A0B8691F87E4B9008E4743 /* ViewController.swift */; };
 		F4A0B86D1F87E4B9008E4743 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4A0B86B1F87E4B9008E4743 /* Main.storyboard */; };
@@ -35,6 +38,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		09F582AE9009EDBC8D4E6FEF /* Pods-yeslapUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yeslapUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-yeslapUITests/Pods-yeslapUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1ADB870B935F5A51EA31A3B4 /* Pods_yeslapTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_yeslapTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		433B38227CCB3621D8D9EB64 /* Pods-yeslap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yeslap.debug.xcconfig"; path = "Pods/Target Support Files/Pods-yeslap/Pods-yeslap.debug.xcconfig"; sourceTree = "<group>"; };
+		453861F625766929E0D37220 /* Pods-yeslap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yeslap.release.xcconfig"; path = "Pods/Target Support Files/Pods-yeslap/Pods-yeslap.release.xcconfig"; sourceTree = "<group>"; };
+		50C122BB1E701725F37ABE2C /* Pods_yeslapUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_yeslapUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		781245311ABE6DC30C90E9D9 /* Pods_yeslap.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_yeslap.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0D42EF488F2E9364099790D /* Pods-yeslapTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yeslapTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-yeslapTests/Pods-yeslapTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A6FA92A77880045EF9B82AE9 /* Pods-yeslapTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yeslapTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-yeslapTests/Pods-yeslapTests.release.xcconfig"; sourceTree = "<group>"; };
+		D71524B95663A43875C1B702 /* Pods-yeslapUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yeslapUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-yeslapUITests/Pods-yeslapUITests.release.xcconfig"; sourceTree = "<group>"; };
 		F4A0B8641F87E4B9008E4743 /* yeslap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = yeslap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4A0B8671F87E4B9008E4743 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F4A0B8691F87E4B9008E4743 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1600EFCBDF01529491910C3A /* Pods_yeslap.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				825F6B1D1D1EBBB3A3D4B359 /* Pods_yeslapTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +84,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6978A4823AF3057CF804BCEC /* Pods_yeslapUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7869D670E1C9203220151609 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				781245311ABE6DC30C90E9D9 /* Pods_yeslap.framework */,
+				1ADB870B935F5A51EA31A3B4 /* Pods_yeslapTests.framework */,
+				50C122BB1E701725F37ABE2C /* Pods_yeslapUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		95428D8949C77BFBFC72D772 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				433B38227CCB3621D8D9EB64 /* Pods-yeslap.debug.xcconfig */,
+				453861F625766929E0D37220 /* Pods-yeslap.release.xcconfig */,
+				A0D42EF488F2E9364099790D /* Pods-yeslapTests.debug.xcconfig */,
+				A6FA92A77880045EF9B82AE9 /* Pods-yeslapTests.release.xcconfig */,
+				09F582AE9009EDBC8D4E6FEF /* Pods-yeslapUITests.debug.xcconfig */,
+				D71524B95663A43875C1B702 /* Pods-yeslapUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		F4A0B85B1F87E4B9008E4743 = {
 			isa = PBXGroup;
 			children = (
@@ -84,6 +122,8 @@
 				F4A0B87B1F87E4B9008E4743 /* yeslapTests */,
 				F4A0B8861F87E4B9008E4743 /* yeslapUITests */,
 				F4A0B8651F87E4B9008E4743 /* Products */,
+				95428D8949C77BFBFC72D772 /* Pods */,
+				7869D670E1C9203220151609 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -135,9 +175,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F4A0B88C1F87E4B9008E4743 /* Build configuration list for PBXNativeTarget "yeslap" */;
 			buildPhases = (
+				E6B7E3E7E2C8F8D2171C7DE8 /* [CP] Check Pods Manifest.lock */,
 				F4A0B8601F87E4B9008E4743 /* Sources */,
 				F4A0B8611F87E4B9008E4743 /* Frameworks */,
 				F4A0B8621F87E4B9008E4743 /* Resources */,
+				BB01AD235871576DFF51ADA4 /* [CP] Embed Pods Frameworks */,
+				2CEB3B65B064A5153BF85A27 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +195,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F4A0B88F1F87E4B9008E4743 /* Build configuration list for PBXNativeTarget "yeslapTests" */;
 			buildPhases = (
+				CE77A5AF604AB9C09816C25D /* [CP] Check Pods Manifest.lock */,
 				F4A0B8741F87E4B9008E4743 /* Sources */,
 				F4A0B8751F87E4B9008E4743 /* Frameworks */,
 				F4A0B8761F87E4B9008E4743 /* Resources */,
+				E8B0AE13CE0CC10A4D68191E /* [CP] Embed Pods Frameworks */,
+				0A6B18ECB6EA30993C137E0C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +216,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F4A0B8921F87E4B9008E4743 /* Build configuration list for PBXNativeTarget "yeslapUITests" */;
 			buildPhases = (
+				8F968825A61E13200249C8DA /* [CP] Check Pods Manifest.lock */,
 				F4A0B87F1F87E4B9008E4743 /* Sources */,
 				F4A0B8801F87E4B9008E4743 /* Frameworks */,
 				F4A0B8811F87E4B9008E4743 /* Resources */,
+				9D089C72A9474A9C6FB10EEE /* [CP] Embed Pods Frameworks */,
+				C2BCC0A4632CF8F2FAB53526 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -257,6 +306,162 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0A6B18ECB6EA30993C137E0C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-yeslapTests/Pods-yeslapTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2CEB3B65B064A5153BF85A27 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-yeslap/Pods-yeslap-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8F968825A61E13200249C8DA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-yeslapUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D089C72A9474A9C6FB10EEE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-yeslapUITests/Pods-yeslapUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB01AD235871576DFF51ADA4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-yeslap/Pods-yeslap-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-yeslap/Pods-yeslap-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C2BCC0A4632CF8F2FAB53526 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-yeslapUITests/Pods-yeslapUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE77A5AF604AB9C09816C25D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-yeslapTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E6B7E3E7E2C8F8D2171C7DE8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-yeslap-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E8B0AE13CE0CC10A4D68191E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-yeslapTests/Pods-yeslapTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F4A0B8601F87E4B9008E4743 /* Sources */ = {
@@ -428,6 +633,7 @@
 		};
 		F4A0B88D1F87E4B9008E4743 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 433B38227CCB3621D8D9EB64 /* Pods-yeslap.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -443,6 +649,7 @@
 		};
 		F4A0B88E1F87E4B9008E4743 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 453861F625766929E0D37220 /* Pods-yeslap.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -458,6 +665,7 @@
 		};
 		F4A0B8901F87E4B9008E4743 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0D42EF488F2E9364099790D /* Pods-yeslapTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -475,6 +683,7 @@
 		};
 		F4A0B8911F87E4B9008E4743 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6FA92A77880045EF9B82AE9 /* Pods-yeslapTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -492,6 +701,7 @@
 		};
 		F4A0B8931F87E4B9008E4743 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09F582AE9009EDBC8D4E6FEF /* Pods-yeslapUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -508,6 +718,7 @@
 		};
 		F4A0B8941F87E4B9008E4743 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D71524B95663A43875C1B702 /* Pods-yeslapUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
