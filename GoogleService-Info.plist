@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>405673897660-8aooql2vefffo6lss5kqkiduotctjm2p.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.405673897660-8aooql2vefffo6lss5kqkiduotctjm2p</string>
+	<key>API_KEY</key>
+	<string>AIzaSyC14B1BxIk6jZTZwkDdPZofTIURkOcIhkk</string>
+	<key>GCM_SENDER_ID</key>
+	<string>405673897660</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.yeslap</string>
+	<key>PROJECT_ID</key>
+	<string>sendlook-yeslap</string>
+	<key>STORAGE_BUCKET</key>
+	<string>sendlook-yeslap.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true></true>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false></false>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:405673897660:ios:d1d3a969fbb9d81f</string>
+	<key>DATABASE_URL</key>
+	<string>https://sendlook-yeslap.firebaseio.com</string>
+</dict>
+</plist>

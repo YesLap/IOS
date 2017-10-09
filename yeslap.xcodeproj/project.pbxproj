@@ -61,6 +61,7 @@
 		F4A0B8871F87E4B9008E4743 /* yeslapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = yeslapUITests.swift; sourceTree = "<group>"; };
 		F4A0B8891F87E4B9008E4743 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F4A0B8951F87E771008E4743 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		F4A0B8981F8BD766008E4743 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +119,7 @@
 			isa = PBXGroup;
 			children = (
 				F4A0B8951F87E771008E4743 /* .gitignore */,
+				F4A0B8981F8BD766008E4743 /* GoogleService-Info.plist */,
 				F4A0B8661F87E4B9008E4743 /* yeslap */,
 				F4A0B87B1F87E4B9008E4743 /* yeslapTests */,
 				F4A0B8861F87E4B9008E4743 /* yeslapUITests */,
