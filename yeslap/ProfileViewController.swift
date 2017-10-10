@@ -18,6 +18,7 @@ class ProfileViewController: UIViewController {
         self.imgUser.layer.cornerRadius = self.imgUser.bounds.width/2.0
         self.imgUser.layer.masksToBounds = true
     }
-    
-    
 }
+
+
+

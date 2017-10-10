@@ -10,14 +10,17 @@
 		1600EFCBDF01529491910C3A /* Pods_yeslap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 781245311ABE6DC30C90E9D9 /* Pods_yeslap.framework */; };
 		6978A4823AF3057CF804BCEC /* Pods_yeslapUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50C122BB1E701725F37ABE2C /* Pods_yeslapUITests.framework */; };
 		825F6B1D1D1EBBB3A3D4B359 /* Pods_yeslapTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1ADB870B935F5A51EA31A3B4 /* Pods_yeslapTests.framework */; };
-		F4A0B8681F87E4B9008E4743 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A0B8671F87E4B9008E4743 /* AppDelegate.swift */; };
 		F4A0B86D1F87E4B9008E4743 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4A0B86B1F87E4B9008E4743 /* Main.storyboard */; };
 		F4A0B86F1F87E4B9008E4743 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4A0B86E1F87E4B9008E4743 /* Assets.xcassets */; };
 		F4A0B8721F87E4B9008E4743 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4A0B8701F87E4B9008E4743 /* LaunchScreen.storyboard */; };
 		F4A0B87D1F87E4B9008E4743 /* yeslapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A0B87C1F87E4B9008E4743 /* yeslapTests.swift */; };
 		F4A0B8881F87E4B9008E4743 /* yeslapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A0B8871F87E4B9008E4743 /* yeslapUITests.swift */; };
 		F4A0B8961F87E772008E4743 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = F4A0B8951F87E771008E4743 /* .gitignore */; };
-		F4A0B89A1F8BE6B1008E4743 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A0B8991F8BE6B1008E4743 /* ProfileViewController.swift */; };
+		F4D9BD221F8C55DF0010BA6B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A0B8671F87E4B9008E4743 /* AppDelegate.swift */; };
+		F4D9BD231F8C55DF0010BA6B /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A0B8991F8BE6B1008E4743 /* ProfileViewController.swift */; };
+		F4D9BD241F8C55DF0010BA6B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D9BD1E1F8C53DE0010BA6B /* LoginViewController.swift */; };
+		F4D9BD251F8C55DF0010BA6B /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D9BD201F8C53E80010BA6B /* RegisterViewController.swift */; };
+		F4D9BD271F8C58570010BA6B /* ProfileEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D9BD261F8C58570010BA6B /* ProfileEditViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +65,9 @@
 		F4A0B8951F87E771008E4743 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		F4A0B8981F8BD766008E4743 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		F4A0B8991F8BE6B1008E4743 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		F4D9BD1E1F8C53DE0010BA6B /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		F4D9BD201F8C53E80010BA6B /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		F4D9BD261F8C58570010BA6B /* ProfileEditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileEditViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +154,9 @@
 				F4A0B86E1F87E4B9008E4743 /* Assets.xcassets */,
 				F4A0B8701F87E4B9008E4743 /* LaunchScreen.storyboard */,
 				F4A0B8731F87E4B9008E4743 /* Info.plist */,
+				F4D9BD1E1F8C53DE0010BA6B /* LoginViewController.swift */,
+				F4D9BD201F8C53E80010BA6B /* RegisterViewController.swift */,
+				F4D9BD261F8C58570010BA6B /* ProfileEditViewController.swift */,
 			);
 			path = yeslap;
 			sourceTree = "<group>";
@@ -470,8 +479,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F4A0B89A1F8BE6B1008E4743 /* ProfileViewController.swift in Sources */,
-				F4A0B8681F87E4B9008E4743 /* AppDelegate.swift in Sources */,
+				F4D9BD221F8C55DF0010BA6B /* AppDelegate.swift in Sources */,
+				F4D9BD271F8C58570010BA6B /* ProfileEditViewController.swift in Sources */,
+				F4D9BD231F8C55DF0010BA6B /* ProfileViewController.swift in Sources */,
+				F4D9BD241F8C55DF0010BA6B /* LoginViewController.swift in Sources */,
+				F4D9BD251F8C55DF0010BA6B /* RegisterViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
